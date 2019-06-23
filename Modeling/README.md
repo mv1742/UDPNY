@@ -5,7 +5,7 @@ Notebooks with convenient to user models
 - Decision Tree Classifier 
 - Logistic Classifier 
 # Results
-\begin{table}[]
+\begin{table}
 \begin{tabular}{lllllll}
 Model Number        & 1.1            & 1.2           & 1.3                         & 1.4               & 1.5   & 2.1    \\
 Model Name          & Baseline model & By Population & By Income Level {[}Pop16{]} & Using Census Data &       & Binary \\
