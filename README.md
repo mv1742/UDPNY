@@ -6,9 +6,6 @@
 #### Sponsor and mentor: Karen Chapple, UC Berkeley
 #### Students: Kent Pan, Tiffany Patafio, Manrique Vargas, Jiawen Wan, Tiancheng Yin
 
-# Purchase-Analytics_MV, Insight Data Engineering Coding Challenge
-## Name of applicant: Manrique Vargas (MV), manriquevargas@hotmail.com
-
 ## Table of Contents
 
 1. [Summary](README.md#Summary)
