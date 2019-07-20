@@ -28,29 +28,11 @@ See the website below:
 The directory structure looks like this:
 
     ├── README.md
-    ├── run.sh
-    ├── src
-    │   └── purchase_analytics.py
-    ├── input
-    │   └── products.csv
-    |   └── order_products.csv
-    ├── output
-    |   └── report.csv
-    ├── insight_testsuite
-        └── run_tests.sh
-        └── tests
+    ├── Notebooks
+        └── Binary Models
             └── test_1
             |   ├── input
-            |   │   └── products.csv
-            |   │   └── order_products.csv
-            |   |__ output
-            |   │   └── report.csv
             ├── your-own-test_1
-                ├── input
-                │   └── your-own-products.csv
-                |   └── your-own-order_products.csv
-                |── output
-                    └── report.csv
 
 
 ##### 1. Introduction
