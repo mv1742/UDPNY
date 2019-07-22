@@ -26,7 +26,7 @@ The directory structure looks like this:
 
     ├── README.md
     ├── Notebooks
-        └── Binary Models
+        └── Binary_Models
             └── test_1
             |   ├── input
             ├── your-own-test_1
