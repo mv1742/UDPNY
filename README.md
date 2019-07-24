@@ -10,6 +10,7 @@
 
 1. [Summary](README.md#Summary)
 1. [Website](README.md#Website)
+1. [Report](README.md#Report)
 1. [Repo directory structure](README.md#Repo-directory-structure)
 1. [Introduction](README.md#Introduction)
 1. [Modelling](README.md#Modelling)
@@ -18,20 +19,25 @@
 ## Summary
 
 ## Website
-See the website below:
+Visit the [Website](https://ace-gabriel.github.io/twitter_gentrification/)
+
+## Report
+View the [Report](https://ace-gabriel.github.io/twitter_gentrification/demo/1.pdf)
+
+## Report
 
 ## Repo directory structure
 
 The directory structure looks like this:
 
     ├── README.md
+    ├── Data
     ├── Notebooks
-        └── Binary_Models
-            └── test_1
-            |   ├── input
-            ├── your-own-test_1
-
-
+    ├── Results	
+    ├── Twitter weight analysis
+    ├── Weight_Analysis
+        
+        
 ##### 1. Introduction
 Our capstone project will study gentrification and displacement risk for neighborhoods within the NY metro region. Using methodology established by the UC Berkeley Urban Displacement Project, and expanding on last year’s CUSP capstone project, we will refine the methodology of the project and expand the scope of the model to incorporate not only administrative census data, but also user-generated social media data (geotagged Twitter data) and other sources of real estate, business, and transportation data. We will use classification models such as random forests with the collected data to better understand granular patterns and variances in activity across changing neighborhoods from those at risk to those in advanced gentrification and exclusion states. With an ever-increasing interest in previously disenfranchised areas as costs within cities climb and investors look for new domain, this area of study is extremely important in helping to shape our cities with residents in mind. The overall goal of our work is to better understand the activities and behaviors in these changing areas so that we can provide insight to help the community, public officials, and other interested parties better manage and plan for the cycle of change. 
 
@@ -42,4 +48,3 @@ We model our problem to output a multiclass classifier of the typologies. The ou
 
 Three different models were explored using different features for each dataset, as well as two predictive models, with the target variable being the gentrification typology. Each model was evaluated with four methods: logistic regression, decision trees, support vector machines, and random forests. 
 
-# References
