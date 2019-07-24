@@ -8,23 +8,17 @@
 
 ## Table of Contents
 
-1. [Summary](README.md#Summary)
 1. [Website](README.md#Website)
 1. [Report](README.md#Report)
 1. [Repo directory structure](README.md#Repo-directory-structure)
-1. [Introduction](README.md#Introduction)
-1. [Modelling](README.md#Modelling)
-1. [References](README.md#References)
+1. [Abstract](README.md#Introduction)
 
-## Summary
 
 ## Website
 Visit the [Website](https://ace-gabriel.github.io/twitter_gentrification/)
 
 ## Report
 View the [Report](https://ace-gabriel.github.io/twitter_gentrification/demo/1.pdf)
-
-## Report
 
 ## Repo directory structure
 
@@ -38,13 +32,6 @@ The directory structure looks like this:
     ├── Weight_Analysis
         
         
-##### 1. Introduction
-Our capstone project will study gentrification and displacement risk for neighborhoods within the NY metro region. Using methodology established by the UC Berkeley Urban Displacement Project, and expanding on last year’s CUSP capstone project, we will refine the methodology of the project and expand the scope of the model to incorporate not only administrative census data, but also user-generated social media data (geotagged Twitter data) and other sources of real estate, business, and transportation data. We will use classification models such as random forests with the collected data to better understand granular patterns and variances in activity across changing neighborhoods from those at risk to those in advanced gentrification and exclusion states. With an ever-increasing interest in previously disenfranchised areas as costs within cities climb and investors look for new domain, this area of study is extremely important in helping to shape our cities with residents in mind. The overall goal of our work is to better understand the activities and behaviors in these changing areas so that we can provide insight to help the community, public officials, and other interested parties better manage and plan for the cycle of change. 
+##### 1. Abstract
 
-##### 2. Modelling
-Our goal is to model the typologies defined by last year’s capstone detailed in prior papers using new data sources, including Twitter, Foursquare, and Zillow.  The typologies are inherently divided between high income and low income neighborhoods, which will impact our model design to be similarly split. Our goal, therefore, will be to classify the types of neighborhood change (typologies) undergone in high income and low income areas using our other data sources, Zillow, FourSquare, and Twitter, with the hope of better understanding patterns and activity in neighborhoods across the spectrum of typologies.
-
-We model our problem to output a multiclass classifier of the typologies. The output classifier is represented as y_i, where i corresponds to every census tract in our study. Data pre-processing has been critical to setting a strong foundation for our models. In particular, a large number of possible features in the datasets and a high likelihood for correlation in features required exploration for some feature engineering and dimensionality reduction techniques, such as normalization and regularization, respectively as well as multicollinearity testing. Additionally, handling of categorical variables through factorization will be critical given the frequency of categorical features across datasets. 
-
-Three different models were explored using different features for each dataset, as well as two predictive models, with the target variable being the gentrification typology. Each model was evaluated with four methods: logistic regression, decision trees, support vector machines, and random forests. 
-
+Gentrification and displacement are pressing issues for many cities today, as urban populations continue to grow and neighborhoods change rapidly in response. While gentrification can bring new businesses, resources, and other positive changes to a neighborhood, the rapid change can be destabilizing to long-term, low-income residents already in the area. Thus, it is important to better understand the activities and behaviors in these changing areas to better provide insight for the local community and public officials. This study utilizes two such novel data sources, Twitter and Foursquare, to explore gentrification and displacement risk for neighborhoods within the 31-county NY metro region. Using methodology established by the UC Berkeley Urban Displacement Project, and expanding on last year’s CUSP capstone project, we utilize both administrative census data and user-generated social media data, to model the gentrification phenomena and in changing neighborhoods. We show that Foursquare and Twitter have the potential of improving prediction of gentrification, but their power for modelling gentrification alone is still weak compared to benefits derived from Census data. We propose alternative definitions of gentrification related to Supergentrification, people gentrification (using college education and income) and place gentrification (using housing and rent price). With these alternative, more specific definitions of change, we were able to see more impact from Foursquare and Twitter datasets on certain change types. Our results show that it is easier to model ‘people’ or ‘place’ gentrification than combining the two. 
