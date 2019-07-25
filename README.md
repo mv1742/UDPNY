@@ -12,6 +12,7 @@
 1. [Report](README.md#Report)
 1. [Repo directory structure](README.md#Repo-directory-structure)
 1. [Abstract](README.md#Abstract)
+1. [Acknowledgements](README.md#Acknowledgements)
 
 
 ## Website
