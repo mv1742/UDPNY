@@ -28,7 +28,6 @@ The directory structure looks like this:
     ├── Data
     ├── Notebooks
     ├── Results	
-    ├── Twitter weight analysis
     ├── Weight_Analysis
         
         
